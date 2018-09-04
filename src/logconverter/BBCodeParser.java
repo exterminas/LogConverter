@@ -1,7 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+
+This class handles the conversion of BBCode-Tags
+It detects tags in the plain text, removes them, and sets the tagged text 
+into appropriately flagged objects of the TextBlock class
+TextBlocks are later used as the basis for .doc generation.
+
+
  */
 package logconverter;
 
@@ -410,7 +414,7 @@ public class BBCodeParser {
         display.setLineWrap(true);
         display.setCaretPosition(display.getDocument().getLength());
 
-        // BorderLayout layout = new BorderLayout();
+        
         frame.add(display, BorderLayout.CENTER);
 
         frame.pack();
