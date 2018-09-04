@@ -1,0 +1,7 @@
+[b]This text should be bold[/b]
+
+[i]This text should be in italics[/i]
+
+[u]This text should be underlined[/u]
+
+[b][u]This text should be bold and underlined[/u][/b]
